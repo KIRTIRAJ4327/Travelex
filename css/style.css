@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Inter", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 h1 {
   font-size: 72px;
@@ -13,6 +13,8 @@ h2 {
   font-size: xx-large;
   text-align: center;
   margin: 0 auto;
+  padding: 20px;
+  font-weight: bold;
 }
 
 p {
@@ -24,14 +26,9 @@ p {
 }
 body {
   position: relative;
-  background: rgb(134, 227, 206);
-  background: linear-gradient(
-    90deg,
-    rgba(134, 227, 206, 1) 35%,
-    rgba(208, 230, 165, 1) 100%
-  ); /* Added background color to body */
+  
+  background: linear-gradient(90deg, #86e3ce, #d0e6a5);
 }
-
 
 
 
@@ -58,3 +55,31 @@ body {
     flex: 2 0px;
   }
 }
+/* For screens smaller than 768px (mobile devices) */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: x-large;
+  }
+
+  p {
+    font-size: medium;
+    line-height: 1.5;
+    padding: 10px;
+  }
+}
+button,
+a {
+  touch-action: manipulation; /* Enable touch interactions */
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+  min-height: 44px; /* Increase the target area for buttons */
+  min-width: 44px;
+}
+
