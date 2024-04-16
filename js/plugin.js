@@ -1,8 +1,10 @@
 const backgroundSlider = document.getElementById('background-slider');
 const images = [
-  'url("../images/box2.jpg")',
-  'url("../images/box3.jpg")',
-  'url("../images/box4.jpg")',
+  'url("../images/tr2.jpg")',
+  'url("../images/tr4.jpg")',
+  'url("../images/tr5.jpg")',
+  'url("../images/tr1.jpg")',
+  'url("../images/tr3.jpg")',
   // Add more image URLs as needed
 ];
 
