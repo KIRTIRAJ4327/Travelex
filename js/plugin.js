@@ -4,7 +4,7 @@ const images = [
   'url("../images/tr4.jpg")',
   'url("../images/tr5.jpg")',
   'url("../images/tr1.jpg")',
-  'url("../images/tr3.jpg")',
+  'url("../images/tr3 .jpg")',
   // Add more image URLs as needed
 ];
 
